@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&family=Mukta:wght@200;300&family=Nunito+Sans:wght@300&family=Poppins:wght@400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #e9e6db;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+    margin: 20px 0px 0px 0px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+img{
+    width: 60.8vh;
+    position: absolute;
+    z-index: 1;
+    margin: 0px 0px 0px 530px;
+}
+
+.tarjeta1{
+    background-color: #d8d7cd;
+    position: absolute;
+    right: 50%;
+    top: 25%;
+    z-index: -1;
+    padding: 30px 100px 30px 30px;
+}
+
+.tarjeta1 i{
+    margin-right: 16px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.tarjeta2{
+    background-color: #383f44;
+    position: absolute;
+    top: 55%;
+    padding: 2vh 40vh;
+    align-items: center;
+    color: #d6d7ca;
+    font-size: 20px;
+}
