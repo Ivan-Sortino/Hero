@@ -117,3 +117,37 @@ img{
     margin-left: 15px;
     cursor: pointer;
 }
+
+.abajo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 84%;
+    width: 100%;
+    z-index: 1;
+
+}
+.abajo h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.abajo p{
+    font-weight: 700; 
+}
+
+.infinity i{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.ocho, .infinity{
+    color: #393e44;
+}
+
+.doce{
+    color: #e9e6db;
+}
+
+
+
